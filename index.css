@@ -136,3 +136,29 @@ span {
     font-size: 0.9rem;
     font-weight: 700;
 }
+
+/* hero-section */
+.hero-section {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img22/GW/Hero/Phase3/DC/Phase_3_Tallhero_3000x1200._CB575148843_.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-msg a {
+    color: #007185;
+}
